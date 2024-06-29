@@ -1,0 +1,53 @@
+/* h1{
+    font-size: 20px;
+    font-weight: bolder;
+} */
+ .text-gradient {
+  background: linear-gradient(90deg, red, blue, green, rgb(0, 0, 0), orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 5s infinite;
+  background-size: 200% 200%;
+}
+.text-gradientdesc {
+  background: linear-gradient(30deg, red, blue,yellow,orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* animation: gradient-animation 5s infinite; */
+  background-size: 200% 200%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* These are the KEY styles - you can add them directly to any object you want in your project */
+.fancy-border-radius {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+/* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
+width: 500px;
+height: 500px;
+background: #5846c1;
+background: -webkit-linear-gradient(
+    to right,
+    #1b1480,
+    #181891
+);
+background: linear-gradient(
+    to right,
+    #250ea7,
+    #0c04a0
+);
+
+}
+
+
+
