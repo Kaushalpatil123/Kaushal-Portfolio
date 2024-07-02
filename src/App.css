@@ -29,8 +29,6 @@
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 
 /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
-width: 31rem;
-height: 31rem;
 background: #5846c1;
 background: -webkit-linear-gradient(
     to right,

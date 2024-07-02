@@ -9,7 +9,7 @@ const Spotlight = () => {
       <div className="bg-[#252525] w-full py-10 pt-32 h-screen">
         <div className="flex gap-5 m-auto w-[80%]">
           <div className="img m-auto">
-            <div class="fancy-border-radius m-auto overflow-hidden">
+            <div class="fancy-border-radius m-auto overflow-hidden w-96 h-96">
               <img src={photo} alt="img fill" />
             </div>
           </div>

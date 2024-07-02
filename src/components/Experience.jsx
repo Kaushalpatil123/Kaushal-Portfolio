@@ -23,12 +23,15 @@ const Experience = () => {
             alt="img1"
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left">
+              Purezza Technologies (Frontend Developer)
             </h5>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            <h6 className="text-left text-xl">Jan 2024 - Present</h6>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-left">
+              ● Developed and maintained dynamic user interfaces for various
+              React.js applications, ensuring a seamless user experience.
+              <br />● Collaborated with cross-functional teams to integrate
+              APIs, enhancing application functionality and performance.
             </p>
           </div>
         </div>
@@ -42,12 +45,18 @@ const Experience = () => {
             alt="img2"
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left">
+              Oasis Infobyte (Web Developer)
             </h5>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            <h6 className="text-left text-xl">May 2023 - Jun 2023</h6>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-left">
+              ● Developed a Temperature App facilitating real-time temperature
+              conversion, streamlining user experience with swift and accurate
+              results.
+              <br />● Designed a visually appealing product landing page on the
+              renowned Flipkart platform to showcase the products, Implemented
+              compelling visuals and a seamless layout, contributing to a 40%
+              increase in user interaction and interest.
             </p>
           </div>
         </div>
@@ -61,12 +70,19 @@ const Experience = () => {
             alt="img3"
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left">
+              Sync Inten's (Web Developer)
             </h5>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            <h6 className="text-left text-xl">Apr 2023 - May 2023</h6>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-left">
+              ● Crafted a Quiz App with a user-friendly interface, providing an
+              engaging experience through multiple-choice questions.Implemented
+              real-time feedback to enhance user interaction.
+              <br />
+              ● Engineered a Music App with seamless audio streaming, offering users an
+              immersive listening experience. Integrated playlist
+              functionalities for personalized content curation while optimizing
+              app performance for smooth operation.
             </p>
           </div>
         </div>
