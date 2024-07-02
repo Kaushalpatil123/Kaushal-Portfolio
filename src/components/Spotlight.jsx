@@ -6,7 +6,7 @@ import photo from "../assets/giftphoto.gif"
 const Spotlight = () => {
   return (
     <div>
-      <div className="bg-[#252525] w-full py-10 ">
+      <div className="bg-[#252525] w-full py-10 pt-32 h-screen">
         <div className="flex gap-5 m-auto w-[80%]">
           <div className="img m-auto">
             <div class="fancy-border-radius m-auto overflow-hidden">
