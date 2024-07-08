@@ -44,6 +44,44 @@ background: linear-gradient(
 }
 
 .experience{
-  background-image: linear-gradient(80deg, red, pink, purple,blue);
+  background-image: linear-gradient(80deg, white, #f4e1f5, #c2e6ff,#f9faff, #e5e7fe, white);
+}
+.skillbackground{
+    background: linear-gradient(30deg, white,#c2e6ff, pink);
+
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
+.skill-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.skill {
+  animation: slide 6s linear infinite;
+}
+
+/* .skill img, .skill .fa-icon {
+  min-width: 80px;
+  max-width: 80px;
+  height: 80px;
+  transition: transform 0.2s ease-out;
+} */
+
+/* .skill img:hover, .skill .fa-icon:hover {
+  transform: scale(1.25);
+} */
+.card{
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.maincontainer::-webkit-scrollbar {
+  display: none;
+}
